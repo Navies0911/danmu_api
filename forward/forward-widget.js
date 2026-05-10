@@ -17,20 +17,20 @@ WidgetMetadata = {
     // 源配置
     {
       name: "sourceOrder",
-      title: "源排序配置，默认'360,vod,renren,hanjutv'，可选['360', 'vod', 'tmdb', 'douban', 'tencent', 'youku', 'iqiyi', 'imgo', 'bilibili', 'migu', 'sohu', 'leshi', 'xigua', 'maiduidui', 'aiyifan', 'renren', 'hanjutv', 'bahamut', 'dandan', 'custom']",
+      title: "源排序配置，默认'tencent,iqiyi,youku,360,vod,renren,hanjutv'，可选['360', 'vod', 'tmdb', 'douban', 'tencent', 'youku', 'iqiyi', 'imgo', 'bilibili', 'migu', 'sohu', 'leshi', 'xigua', 'maiduidui', 'aiyifan', 'renren', 'hanjutv', 'bahamut', 'dandan', 'custom']",
       type: "input",
       placeholders: [
         {
           title: "配置1",
-          value: "tencent,iqiyi,imgo,bilibili,youku,renren,hanjutv",
+          value: "tencent,iqiyi,youku,360,vod,renren,hanjutv",
         },
         {
           title: "配置2",
-          value: "douban,360,vod,renren,hanjutv",
+          value: "tencent,iqiyi,imgo,bilibili,youku,renren,hanjutv",
         },
         {
           title: "配置3",
-          value: "360,vod,renren,hanjutv",
+          value: "douban,360,vod,renren,hanjutv",
         },
         {
           title: "配置4",
