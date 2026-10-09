@@ -19,11 +19,12 @@ jobs:
               uses: actions/checkout@v5
               with:
                 token: ${{ secrets.GITHUB_TOKEN }}
+                persist-credentials: false
 
             - name: Sync Upstream
               uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.3
               with:
-                  target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+                  target_repo_token: ${{ secrets.FORK_SYNC_TOKEN }}
                   upstream_sync_repo: huangxd-/danmu_api
                   upstream_sync_branch: main
                   target_sync_branch: main
