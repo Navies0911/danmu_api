@@ -25,24 +25,12 @@ WidgetMetadata = {
     // 源配置
     {
       name: "sourceOrder",
-      title: "源排序配置，默认'douban,360,renren,hanjutv'，可选['360', 'vod', 'tmdb', 'douban', 'tencent', 'youku', 'iqiyi', 'imgo', 'bilibili', 'migu', 'sohu', 'leshi', 'xigua', 'maiduidui', 'aiyifan', 'hongguo', 'renren', 'hanjutv', 'bahamut', 'dandan', 'custom']",
+      title: "源排序配置，默认'iqiyi,youku,imgo,tencent,bilibili'（爱奇艺、优酷、芒果TV、腾讯视频、哔哩哔哩）",
       type: "input",
       placeholders: [
         {
-          title: "配置1",
-          value: "tencent,iqiyi,imgo,bilibili,youku,renren,hanjutv",
-        },
-        {
-          title: "配置2（推荐）",
-          value: "douban,360,renren,hanjutv",
-        },
-        {
-          title: "配置3",
-          value: "360,vod,renren,hanjutv",
-        },
-        {
-          title: "配置4",
-          value: "vod,360,renren,hanjutv,bahamut,dandan",
+          title: "五个官方源（推荐）",
+          value: "iqiyi,youku,imgo,tencent,bilibili",
         },
       ],
     },
